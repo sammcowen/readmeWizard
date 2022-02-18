@@ -1,11 +1,6 @@
 
   # test
 
-  ## Licensing:
- 
-  ![badge](https://img.shields.io/badge/license- MIT License-pink)
-  This application uses the MIT License license. 
-  For more information please visit the [license description]().
   
   ## Table of Contents
   
@@ -16,6 +11,12 @@
   *[Contributions](#Contributions)
   *[Tests](#Tests)
   *[Questions](#Questions)
+
+  ## Licensing:
+ 
+  ![badge](https://img.shields.io/badge/license-MITLicense-brightorange)
+  This application uses  MIT License.
+  For more information please visit the [license description](https://choosealicense.com/licenses/mit/).
 
   ## Description
   test
@@ -33,10 +34,10 @@
   test
 
   ## Tests 
-  Instructions for testing this applcation:
+  Instructions for testing this application:
   test
 
   ## Questions
   Any questions please reach out via 
-  *Github: https://github.com/test
-  *Email: test
+  *Github: https://github.com/sammcowen
+  *Email: sammcowen@gmail.com

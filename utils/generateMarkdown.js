@@ -2,7 +2,7 @@
 function generateMarkdown(data) {
   
   let licenseLink ='';
-  if(`${data.license}`=== 'Apache License 2.0'){
+  if(`${data.license}` === 'Apache License 2.0'){
     licenseOption = 'ApacheLicense2.0';
     licenseLink = 'https://choosealicense.com/licenses/apache-2.0/';
   };
@@ -10,7 +10,7 @@ function generateMarkdown(data) {
     licenseOption = 'MITLicense';
     licenseLink = 'https://choosealicense.com/licenses/mit/';
   };
-  if(`${data.license}`=== 'None'){
+  if(`${data.license} `=== 'None'){
     licenseOption = 'No license';
     licenseLink = '';
   };
