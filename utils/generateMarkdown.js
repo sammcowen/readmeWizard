@@ -1,20 +1,19 @@
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  let licenseOption =` ${data.license}`;
+  
   let licenseLink ='';
-  if(licenseOption=== 'Apache License 2.0'){
+  if(`${data.license}`=== 'Apache License 2.0'){
     licenseOption = 'ApacheLicense2.0';
     licenseLink = 'https://choosealicense.com/licenses/apache-2.0/';
   };
-  if (licenseOption === 'MIT License') {
+  if (`${data.license}` === 'MIT License') {
     licenseOption = 'MITLicense';
     licenseLink = 'https://choosealicense.com/licenses/mit/';
   };
-  if(licenseOption=== 'None'){
+  if(`${data.license}`=== 'None'){
     licenseOption = 'No license';
     licenseLink = '';
-
-  }
+  };
   return `
   # ${data.title}
 
@@ -31,9 +30,9 @@ function generateMarkdown(data) {
 
   ## Licensing:
  
-  ![badge](https://img.shields.io/badge/license-${licenseOption}-pink)
+  ![badge](https://img.shields.io/badge/license-${data.license}-brightorange)
   This application uses  ${data.license}.
-  For more information please visit the [license description](${licenseLink}).
+  For more information please visit the [license description](https://choosealicense.com/licenses/${licenseLink}).
 
   ## Description
   ${data.description}
