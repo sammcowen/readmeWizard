@@ -30,9 +30,9 @@ function generateMarkdown(data) {
 
   ## Licensing:
  
-  ![badge](https://img.shields.io/badge/license-${data.license}-brightorange)
+  ![badge](https://img.shields.io/badge/license-${licenseOption}-brightorange)
   This application uses  ${data.license}.
-  For more information please visit the [license description](https://choosealicense.com/licenses/${licenseLink}).
+  For more information please visit the [license description](${licenseLink}).
 
   ## Description
   ${data.description}
@@ -50,7 +50,7 @@ function generateMarkdown(data) {
   ${data.contributions}
 
   ## Tests 
-  Instructions for testing this applcation:
+  Instructions for testing this application:
   ${data.test}
 
   ## Questions
