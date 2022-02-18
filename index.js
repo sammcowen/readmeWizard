@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
+const generateMarkdown = require('./utils/generateMarkdown.js');
 // TODO: Create an array of questions for user input
 const questions = [
     {   //Project Title
@@ -23,9 +24,9 @@ const questions = [
         validate: descriptionInput => {
             if (descriptionInput) {
                 return true;
-            } else {                
-            console.log('You must enter a description to continue!');
-            return false;
+            } else {
+                console.log('You must enter a description to continue!');
+                return false;
             }
         }
     },
@@ -60,10 +61,9 @@ const questions = [
         name: 'contributions',
         message: 'Enter guidelines for contributions (Required)',
         validate: contributionsInput => {
-            if (contributionsInput) 
-            {
+            if (contributionsInput) {
                 return true;
-            } else {               
+            } else {
                 console.log('You must enter guidelines for contributing to continue!');
                 return false;
             }
@@ -81,7 +81,7 @@ const questions = [
                 return false;
             }
         }
-       
+
     },
     {   //License Options
         type: 'checkbox',
@@ -89,8 +89,7 @@ const questions = [
         message: 'Choose a license for your project (Required)',
         choices: ['apache', 'MIT', 'Common-Development-and Distribution', 'None'],
         validate: licenseInput => {
-            if (licenseInput)
-            {
+            if (licenseInput) {
                 return true;
             } else {
                 console.log('You must choose an option to continue!');
@@ -105,7 +104,7 @@ const questions = [
         validate: githubInput => {
             if (githubInput) {
                 return true;
-            } else  {
+            } else {
                 console.log('You must enter your github username  to continue!');
                 return false;
             }
@@ -127,16 +126,22 @@ const questions = [
 
 ];
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+
+    fs.writeFile(fileName, data, (err) => {
+        if (err)
+            throw err;
+        console.log('Success! Information transferred to the README!')
+    });
+};
+
 
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
-    .then(function(answers)
-    {
-        console.log(answers)
-        writeToFile();
-    });
+        .then(function (answers) {
+            writeToFile("README.md", generateMarkdown(answers));
+        });
 };
 
 // Function call to initialize app
