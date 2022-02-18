@@ -1,40 +1,42 @@
 
-  # TEST
+  # test
 
   ## Licensing:
- [![license].(https://img.shields.io/badge/license-None-blue)](https://shields.io)
-
+ 
+  ![badge](https://img.shields.io/badge/license- MIT License-pink)
+  This application uses the MIT License license. 
+  For more information please visit the [license description]().
+  
   ## Table of Contents
-  -[Description](#description)
-
-  -[Installation](#Installation)
-
-  -[Usage](#Usage)
-
-  -[Contributions](#Contributions)
-
-  -[Tests](#Tests)
-
-  -[Questions](#Questions)
+  
+  *[Licensing](#Licensing)
+  *[Description](#description)
+  *[Installation](#Installation)
+  *[Usage](#Usage)
+  *[Contributions](#Contributions)
+  *[Tests](#Tests)
+  *[Questions](#Questions)
 
   ## Description
- test
+  test
 
   ## Installation
- test
+  Follow these steps to properly install this application:
+  test
 
   ## Usage 
-  test 
+  Instructions for use:
+  test
 
   ## Contributions
+  If you would like to contribute to this project, please follow these guidelines: 
   test
 
   ## Tests 
- test
+  Instructions for testing this applcation:
+  test
 
   ## Questions
-  Any questions please reach out via :
-
-  -Github: https://github.com/boyb
-
-  -Email:test@gmail.com
+  Any questions please reach out via 
+  *Github: https://github.com/test
+  *Email: test
