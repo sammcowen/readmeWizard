@@ -15,18 +15,24 @@
 
 ## Description
 
-A command line application that allows users to enter their project's information and instantly create a professional readme 
+A command line application that allows users to enter their project's information and instantly generate a professional readme. 
 
 ## Demo 
-Here is a link to the demo of the readme Wizard !
+Here is a  demo of my readmeWizard !
 
+Here is a link to the demo as well.
 
 ## Installation
 Follow these steps to properly install this application:
+Run npm install for inquirer, fs and utils.
+
 
 ## Usage
 
 Instructions for use:
+Run the command node index.js in your terminal. This will prompt the questions from inquirer. Your  input/answers to the 
+questions will generate a professional readme for your project.Your answers will be used  in the fs.write package, written in markdown format and will
+automatically generate a readme.md file once all required questions have been answered.
 
 ## Questions
 
