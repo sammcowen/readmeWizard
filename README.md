@@ -1,7 +1,7 @@
 
-  # test 
+  # example title
 
-  ![badge](https://img.shields.io/badge/license-MITLicense-brightorange)
+  ![badge](https://img.shields.io/badge/license-ApacheLicense2.0-brightorange)
   
   ## Table of Contents
   
@@ -21,34 +21,34 @@
 
   ## Licensing:
  
-  This application uses MIT License.
+  This application uses Apache License 2.0.
 
-  For more information please visit the [license description](https://choosealicense.com/licenses/mit/).
+  For more information please visit the [license description](https://choosealicense.com/licenses/apache-2.0/).
 
   ## Description
 
-  test
+  example description 
 
   ## Installation
   Follow these steps to properly install this application:
 
-  test
+  example of how to install
 
   ## Usage 
   Instructions for use:
 
-  test
+  example of usage
 
   ## Contributions
   If you would like to contribute to this project, please follow these guidelines: 
 
-  test
+  example contributions guidelines
 
   ## Tests 
   Instructions for testing this application:
 
-  test
+  example testing 
 
   ## Questions
   Any questions please reach out to me at my [Github](https://github.com/sammcowen)
-   or by my email at  sammcowen@gmail.com
+   or by my email at  example@email.com
