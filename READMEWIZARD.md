@@ -30,4 +30,4 @@ Instructions for use:
 
 ## Questions
 
- Any questions please reach out to me at my github : https://github.com/sammcowen   
+ Any questions please reach out to me at my [GitHub](https://github.com/sammcowen)   
