@@ -1,29 +1,29 @@
 
-  # test
+  # test 
 
-  ![badge](https://img.shields.io/badge/license-ApacheLicense2.0-brightorange)
+  ![badge](https://img.shields.io/badge/license-MITLicense-brightorange)
   
   ## Table of Contents
   
-  *[Licensing](#Licensing)
+-[Licensing](#Licensing)
 
-  *[Description](#description)
+-[Description](#description)
 
-  *[Installation](#Installation)
+-[Installation](#Installation)
 
-  *[Usage](#Usage)
+-[Usage](#Usage)
 
-  *[Contributions](#Contributions)
+-[Contributions](#Contributions)
 
-  *[Tests](#Tests)
+-[Tests](#Tests)
 
-  *[Questions](#Questions)
+-[Questions](#Questions)
 
   ## Licensing:
  
-  This application uses  Apache License 2.0.
+  This application uses MIT License.
 
-  For more information please visit the [license description](https://choosealicense.com/licenses/apache-2.0/).
+  For more information please visit the [license description](https://choosealicense.com/licenses/mit/).
 
   ## Description
 
@@ -50,8 +50,5 @@
   test
 
   ## Questions
-  Any questions please reach out via 
-
-  *Github: https://github.com/sammcowen
-  
-  *Email: sammcowen@gmail.com
+  Any questions please reach out to me at my [Github](https://github.com/sammcowen)
+   or by my email at  sammcowen@gmail.com
