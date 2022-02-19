@@ -20,6 +20,7 @@ A command line application that allows users to enter their project's informatio
 ## Demo 
 Here is a  demo of my readmeWizard !
 
+![Untitled_ Feb 18, 2022 10_29 PM](https://user-images.githubusercontent.com/92121595/154789623-c80563be-2d33-4f2e-8c85-ea03292f93e3.gif)
 
 Here is a link to the demo as well.
 [ReadmeWIZARD Demo](https://drive.google.com/file/d/1Sg1NjVWg6qT3KL7yHu0BHTtFdPY9sJWM/view)
