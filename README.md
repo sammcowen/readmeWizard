@@ -1,54 +1,42 @@
+# readme Wizard 
 
-  # example title
+## Table of Contents
 
-  ![badge](https://img.shields.io/badge/license-ApacheLicense2.0-brightorange)
-  
-  ## Table of Contents
-  
--[Licensing](#Licensing)
+-[Description](#Description)
 
--[Description](#description)
+-[Demo](#demo)
 
 -[Installation](#Installation)
 
 -[Usage](#Usage)
 
--[Contributions](#Contributions)
-
--[Tests](#Tests)
-
 -[Questions](#Questions)
 
-  ## Licensing:
- 
-  This application uses Apache License 2.0.
 
-  For more information please visit the [license description](https://choosealicense.com/licenses/apache-2.0/).
+## Description
 
-  ## Description
+A command line application that allows users to enter their project's information and instantly generate a professional readme. 
 
-  example description 
+## Demo 
+Here is a short demo of my readmeWizard !
 
-  ## Installation
-  Follow these steps to properly install this application:
+![Untitled_ Feb 18, 2022 10_29 PM](https://user-images.githubusercontent.com/92121595/154789623-c80563be-2d33-4f2e-8c85-ea03292f93e3.gif)
 
-  example of how to install
+Here is a link to the FULL DEMO as well.
+[ReadmeWIZARD Demo](https://drive.google.com/file/d/1Sg1NjVWg6qT3KL7yHu0BHTtFdPY9sJWM/view)
 
-  ## Usage 
-  Instructions for use:
+## Installation
+Follow these steps to properly install this application:
+Run npm install for inquirer, fs and utils.
 
-  example of usage
 
-  ## Contributions
-  If you would like to contribute to this project, please follow these guidelines: 
+## Usage
 
-  example contributions guidelines
+Instructions for use:
+Run the command node index.js in your terminal. This will prompt the questions from inquirer. Your  input/answers to the 
+questions will generate a professional readme for your project.Your answers will be used  in the fs.write package, written in markdown format and will
+automatically generate a readme.md file once all required questions have been answered.
 
-  ## Tests 
-  Instructions for testing this application:
+## Questions
 
-  example testing 
-
-  ## Questions
-  Any questions please reach out to me at my [Github](https://github.com/sammcowen)
-   or by my email at  example@email.com
+ Any questions please reach out to me at my [GitHub](https://github.com/sammcowen)   
